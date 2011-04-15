@@ -1,0 +1,7 @@
+From: Jiang Xin <jiangxin@ossxp.com>
+Subject: [PATCH] Do not add .git suffix to remote url
+
+Some project like freemind's git repository in SourceForge,
+can not clone with the '.git' suffix.
+
+Signed-off-by: Jiang Xin <jiangxin@ossxp.com>
